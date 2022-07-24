@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-const _uri = `mongodb+srv://graphqluser:MgtFP6PhjkEqwupB@cluster0.itbz4.mongodb.net/?retryWrites=true&w=majority`
+
 
 mongoose.connect(_uri)
 mongoose.connection.once('open', () => {
